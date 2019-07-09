@@ -9,7 +9,7 @@ System specifications :
     * Tensorflow-gpu 1.80 [sudo pip3 install tensorflow-gpu==1.80] 
     [Mark that some higher version of Tensorflow-gpu such as 1.14 won't support cudnn 7] 
  
- --------------------------------------------YOLO DARKFLOW----------------------------------------------------------------
+ --------------------------------------------YOLO DARKFLOW----------------------------------------------------------------------------------------------------------------
  
 Okay folks, let's commence! 
 Running the YOLO darkflow algorithm is pretty simple! [given you have installed everything correctly, as the algorithm is a bit high maintenance (no offense to the good authors!)] 
@@ -38,7 +38,7 @@ Step VII : Execute the command to load weight and check the compatibility of the
            
            flow --model cfg/yolo.cfg --load bin/yolo.weights
            
-Step VIII : Store all the images you want to try the YOLO architecture on, inside the sample_img folder and execute
+Step VIII : Store all the images you want inside the sample_img folder and execute
             
             flow --imgdir sample_img/ --model cfg/yolo.cfg --load bin/yolo.weights --gpu 1.0
             
